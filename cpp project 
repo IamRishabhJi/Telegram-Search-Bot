@@ -1,0 +1,50 @@
+[20/02, 9:54 am] Preet PTU ECE: of each subject should be greater than minimum pass marks (Ex: 35).
+
+/*Program to accept marks and obtain total and percentage of marks*/
+
+#include<stdio.h>
+
+#include<conio.h>
+
+main()
+
+{
+
+int sub1, sub2, sub3, sub4, sub5, sum;
+
+long int studno;
+
+clrscr();
+
+printf("Enter Student Number: ");
+
+float total=500, percentage; printf("Enter SUBJECT1 marks: "); scanf("%d", &sub1); printf("Enter SUBJECT2 marks: ");
+
+scanf("%ld", &studno);
+
+scanf("%d", &sub2);
+[20/02, 9:54 am] Preet PTU ECE: printf("Enter SUBJECT3 marks: ");
+
+scanf("%d", &sub3);
+
+printf("Enter SUBJECT4 marks: ");
+
+scanf("%d", &sub4);
+
+printf("Enter SUBJECTS marks: ");
+
+scanf("%d", &sub5);
+
+sum-sub1+sub2+sub3+sub4+sub5;
+
+percentage=(sum/total)*100;
+
+printf("=============RESULT=============\n");
+
+printf("STUDENT NUMBER: %ld", studno);
+
+printf("\nTOTAL MARKS OBTAINED FOR 500: %d", sum);
+
+printf("\nPERCENTAGE: %.2f", percentage);
+
+getch();
